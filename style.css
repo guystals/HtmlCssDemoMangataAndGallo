@@ -4,6 +4,7 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
+    background: #F5F3EF;
 }
 
 h1 {
@@ -32,6 +33,18 @@ nav ul {
 
 nav li {
     display: inline-block;
+    list-style: none;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+li:hover {
+    background-color: lightgray;
 }
 
 section {
