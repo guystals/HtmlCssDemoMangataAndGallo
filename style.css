@@ -56,6 +56,13 @@ article {
     flex: 1;
 }
 
+.banner {
+    background-color: #22201D;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
 footer {
     display: flex;
     padding: 1rem;
