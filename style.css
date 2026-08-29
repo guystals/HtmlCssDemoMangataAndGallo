@@ -13,10 +13,17 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
 header {
-    padding: 3%;
+    padding: 3%;    
+}
+
+article img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
 }
 
 header>img {
@@ -54,6 +61,9 @@ section {
 
 article {
     flex: 1;
+    align-items: center;
+    padding: 2rem;
+    width: 33.33%;
 }
 
 .banner {
@@ -66,6 +76,7 @@ article {
 footer {
     display: flex;
     padding: 1rem;
+    background-color: lightgray;
 }
 
 footer div {
