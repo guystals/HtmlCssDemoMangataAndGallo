@@ -59,6 +59,12 @@ section {
     flex-wrap: wrap;
 }
 
+#products {
+    border: 2px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 article {
     flex: 1;
     align-items: center;
