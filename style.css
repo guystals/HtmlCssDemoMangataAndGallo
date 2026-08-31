@@ -17,13 +17,13 @@ h2 {
 }
 
 header {
-    padding: 3%;    
+    padding: 3%;
 }
 
 article img {
-        display: block;
-        width: 100%;
-        aspect-ratio: 1 / 1;
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 header>img {
@@ -87,4 +87,13 @@ footer div {
 footer img {
     height: 50px;
     width: 50px;
+}
+
+.textual {
+    border: 1px;
+    padding: 10px;
+}
+
+.textual:hover {
+    box-shadow: 5px 0px 25px black;
 }
